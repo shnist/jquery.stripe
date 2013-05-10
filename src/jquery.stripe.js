@@ -121,10 +121,11 @@
 
 		$('.stripe-description').remove();
 
+		$me.append(alt);
+
 		$lis.animate({'width': mean}, this.ms, 'swing');
 
 		$me.animate({'width': maxWidth}, this.ms, 'swing', function () {
-			$me.append(alt);
 			setTimeout(function() {
 				alt.fadeIn(that.ms);
 			}, 0);
