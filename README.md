@@ -1,8 +1,9 @@
 # jQuery Plugin .stripe( options ) [Demo](http://fliptopbox.com/demo/stripe/)
-    @version  : 1.0
-    @author   : Bruce Thomas
-    @requires : jQuery Core 1.7+
-    @github   : https://github.com/fliptopbox/jquery.stripe/
+    @version  		: 1.0
+    @author   		: Bruce Thomas
+    @contributors 	: Aaron Faber
+    @requires 		: jQuery Core 1.7+
+    @github   		: https://github.com/fliptopbox/jquery.stripe/
 
 ## Purpose:
 
