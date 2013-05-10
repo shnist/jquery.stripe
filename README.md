@@ -19,6 +19,8 @@ A jQuery plug-in to create a cool striped gallery object.
 	automatic {Boolean}: Whether or not the stripe gallery plays automatically
 	min-width {Number}:  The minimum width of the images
 	buttons {Boolean}: Whether or not to render the mark up for the controls
+	onNext {Function}: Callback when clicking the next control
+	onPrev {Function}: Callback when clicking the previous control
 
 ## Things to note
 
