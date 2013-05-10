@@ -18,7 +18,9 @@
 			"delay": (10 * 1000),
 			"automatic": false,
 			"min-width": 10,
-			"buttons": null
+			"buttons": null,
+			"onNext": function() {},
+			"onPrev": function () {}
 		};
 
 	// The actual plugin constructor
@@ -57,6 +59,8 @@
 		this.maxImageWidth = this.totalWidth - (this.imageTotal * this.minStripeWidth);
 		this.minHeight = null;
 		this.current = null;
+		this.onNext = this.getOption('onNext');
+		this.onPrev = this.getOption('onPrev');
 
 		this.init();
 	}
@@ -170,6 +174,7 @@
 		Gets the next image in the list
 	*/
 	Stripe.prototype.next = function () {
+		this.onNext();
 		return this.getImage(this.current + 1);
 	};
 
@@ -177,6 +182,7 @@
 		Gets the previous image in the list
 	*/
 	Stripe.prototype.previous = function () {
+		this.onPrev();
 		return this.getImage(this.current - 1);
 	};
 
