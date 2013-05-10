@@ -34,4 +34,15 @@ A jQuery plug-in to create a cool striped gallery object.
 
 ## Compatibility
 
+Feel free to send us your feedback for other browsers
+
 * Chrome 26+
+* Firefox 20+
+* Safari 6+
+* Opera 12.15
+
+## To Do
+
+* Callback methods (on animate?)
+* Better handling of the alt text presentation
+* Auto-animate sequentially option
